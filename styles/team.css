@@ -1,0 +1,62 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #181A1C;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+.contact-holder{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  margin: 100px auto 0px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.7), 0px 4px 0px #FF0090, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0,0,0,0.4), 0px 6px 26px rgba(0,0,0,0.4);
+}
+
+.contact-image-holder{
+  margin-top: -100px;
+  position: relative;
+  left: 50%;
+  margin-left: -77px;
+  padding: 6px;
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  border: 1px dashed #FF0090;
+  box-shadow: 0px 3px 26px rgba(0,0,0,0.4);
+}
+
+
+.contact-image-holder img{
+  border-radius: 50%;
+  width: 140px;
+  border: 5px solid #FDFDFD;
+  box-shadow: 0px 3px 16px rgba(0,0,0,0.4);
+}
+
+.content{
+  margin-top: 20px;
+}
+
+.bottom{
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+  .bottom p::before,.bottom p::after {
+    display: inline-block;
+    content:"";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 1px 20px;
+    background: rgba(0,0,0,0.05);
+    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);
+    border-bottom: 1px solid #fff;
+  }
