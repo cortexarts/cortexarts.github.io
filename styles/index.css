@@ -1,0 +1,22 @@
+@-webkit-keyframes bgscroll {
+	from {background-position:0 0;}
+	to {background-position:0 -520px;}
+}
+.ani {
+  background: url(http://www.mrwallpaper.com/wallpapers/Blue-Planet-Earth-1920x1080.jpg);
+  color:#ecf2f9;
+  text-align:center;
+  -webkit-animation:bgscroll 20s infinite linear;
+}
+
+.textainer {  
+  margin: 0 auto;
+  position: relative;
+  padding: 2em;
+  height:500px;
+}
+#image{
+position:absolute;
+    width:100px;
+    height:100px;
+}
