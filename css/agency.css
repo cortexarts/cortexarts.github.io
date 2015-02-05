@@ -629,13 +629,21 @@ section h3.section-subheading {
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+  width: 369px;
+  margin: 0 auto;
+  padding: 20px;
+  margin: 100px auto 0px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.7), 0px 4px 0px #FF0090, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0,0,0,0.4), 0px 6px 26px rgba(0,0,0,0.4);
 }
-
+/*
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width:200px;
 }
-
+*/
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -863,4 +871,24 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.gon {
+  width: 220px;
+  height: 220px;
+}
+.hexa {
+  width: 190px;
+  -webkit-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
+  clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  );
 }
