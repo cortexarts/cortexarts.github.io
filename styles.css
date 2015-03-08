@@ -21,12 +21,6 @@ body {
   box-sizing: border-box;
 }
 
-.surveys {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .survey-item {
   display: block;
   margin-top: 10px;
@@ -34,10 +28,6 @@ body {
   border-radius: 2px;
   background: white;
   box-shadow: 0 2px 1px rgba(170, 170, 170, 0.25);
-}
-
-.survey-name {
-  font-weight: 400;
 }
 
 @media screen and (max-width: 800px) {
@@ -58,24 +48,6 @@ body {
   }
 }
 
-.survey-stage .stage {
-  display: inline-block;
-  vertical-align: middle;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
-  border-radius: 50%;
-  padding: 0;
-  margin: 0 2px;
-  background: #f2f2f2;
-  text-indent: -9999px;
-  color: transparent;
-  line-height: 16px;
-}
-.survey-stage .stage.active {
-  background: #A1A1A4;
-}
-
 .grid .grid-only {
   display: auto;
 }
@@ -87,9 +59,9 @@ body {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  height: 420px;
-  width: 420px;
-  margin: 10px;
+  height: 500px;
+  width: 500px;
+  margin: 5px;
 }
 @media screen and (max-width: 600px) {
   .grid .survey-item {
@@ -98,27 +70,6 @@ body {
     height: 150px;
     margin: 10px auto;
   }
-}
-.grid .survey-name {
-  display: block;
-  max-width: 80%;
-  font-size: 16px;
-  line-height: 20px;
-}
-.grid .survey-country {
-  font-size: 11px;
-  line-height: 16px;
-  text-transform: uppercase;
-}
-.grid .survey-country,
-.grid .survey-end-date {
-  color: #A1A1A4;
-}
-.grid .survey-end-date:before {
-  content: 'Ends\00a0';
-}
-.grid .survey-end-date.ended:before {
-  content: 'Ended\00a0';
 }
 .grid .survey-progress {
   display: block;
