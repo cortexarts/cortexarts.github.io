@@ -1,3 +1,3 @@
 $(document).ready(function () {
-   $('.survey-item').hide().fadeIn(4000);    
+   $('.grid').hide().fadeIn(4000);    
 });

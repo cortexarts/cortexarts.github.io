@@ -48,10 +48,6 @@ body {
   }
 }
 .grid-container .grid {
-  -webkit-animation: fadeIn 1s;
-  -moz-animation: fadeIn 1s;
-  -o-animation: fadeIn 1s;
-  animation: fadeIn 1s;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -79,26 +75,6 @@ body {
   font-size: 15px;
 }
 
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0.0;}
-  50% {opacity: 0.5;}
-  100% {opacity: 1.0;}
-}
-@-moz-keyframes fadeIn {
-    0% {opacity: 0.0;}
-  50% {opacity: 0.5;}
-  100% {opacity: 1.0;}
-}
-@-o-keyframes fadeIn {
-    0% {opacity: 0.0;}
-  50% {opacity: 0.5;}
-  100% {opacity: 1.0;}
-}
-@keyframes fadeIn {
-  0% {opacity: 0.0;}
-  50% {opacity: 0.5;}
-  100% {opacity: 1.0;}
-}
 /* -- LEGEND STYLES (NOT PART OF GRID FRAMEWORK) -- */
 
 h1{
