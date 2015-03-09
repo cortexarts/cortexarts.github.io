@@ -2,25 +2,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Styles</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="grid.js"></script>
 </head>
-
 <body>
 
 <h1>Styles</h1>
 
 <!-- FLUID GRID -->
 
-<ul class="surveys grid">
+<ul class="grid-container">
     <!-- Copy grid -->
-    <li class="survey-item">
+    <li class="grid">
     
     <img src="http://cdn.apeonthemoon.com/wp-content/uploads/2014/03/8ea467520bbec472737b6aed05912d3e.gif" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Pixelart
         </span>
         
@@ -30,13 +32,13 @@
   </li>
   <!-- End grid -->
   
-       <li class="survey-item">
+       <li class="grid">
     
     <img src="https://www.oxfam.org.au/wp-content/uploads/2013/09/chipotle-creates-great-animated-short-film-the-scarecrow-1.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Filtered realism - The Scarecrow
         </span>
         
@@ -45,13 +47,13 @@
     </div>
   </li>
 
-      <li class="survey-item">
+      <li class="grid">
     
     <img src="http://www.besiege.spiderlinggames.co.uk/Screenshots/Besiege_Screen1_big.png" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Filtered realism - Besiege
         </span>
         
@@ -60,13 +62,13 @@
     </div>
   </li>
 
-      <li class="survey-item">
+      <li class="grid">
     
     <img src="http://computertaal.info/wp-content/uploads/2014/11/This-War-Of-Mine-4.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Cartoon - This war of mine
         </span>
         
@@ -75,13 +77,13 @@
     </div>
   </li>
 
-      <li class="survey-item">
+      <li class="grid">
     
     <img src="http://images.eurogamer.net/2013/articles//a/1/6/6/4/9/5/8/eurogamer-pijp5s.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Clay - Godus
         </span>
         
@@ -90,13 +92,13 @@
     </div>
   </li>
 
-      <li class="survey-item">
+      <li class="grid">
     
     <img src="http://images.purexbox.com/news/2015/03/microsoft_confirms_gigantic_for_xbox_one_with_pc_cross-play/attachment/0/large.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Clay - Gigantic
         </span>
         
@@ -105,13 +107,13 @@
     </div>
   </li>
 
-      <li class="survey-item">
+      <li class="grid">
     
     <img src="http://i.imgur.com/8vwQHs3.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Cartoon - Minecraft
         </span>
         
@@ -120,13 +122,13 @@
     </div>
   </li>
 
-      <li class="survey-item">
+      <li class="grid">
     
     <img src="polygon.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Polygon
         </span>
         
@@ -135,13 +137,13 @@
     </div>
   </li>
   
-    <li class="survey-item">
+    <li class="grid">
     
-    <img src="http://humanorbit.com/wp/wp-content/uploads/2015/01/blog20012015humanorbit1.png" width="100%" height="400px">
+    <img src="https://pbs.twimg.com/media/B79LYheCcAESZ-B.png:large" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Semi-realism - Human Orbit
         </span>
         
@@ -150,13 +152,13 @@
     </div>
   </li>
   
-  <li class="survey-item">
+  <li class="grid">
     
     <img src="http://s.pro-gmedia.com/videogamer/media/images/iphone/hitman_go/screens/hitman_go_2.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Semi-realism - Hitman Go
         </span>
         
@@ -165,14 +167,44 @@
     </div>
   </li>
   
-  <li class="survey-item">
+  <li class="grid">
     
     <img src="http://www.touchtapplay.com/wp-content/uploads/2014/12/Angry-Birds.jpg" width="100%" height="400px">
     
-    <div class="pull-right">
+    <div class="bottom">
       
-      <span class="survey-progress">
+      <span class="title">
         Cartoon - Angry Birds 
+        </span>
+        
+        </span>
+      </span>
+    </div>
+  </li>
+
+  <li class="grid">
+    
+    <img src="iso2.png" width="100%" height="400px">
+    
+    <div class="bottom">
+      
+      <span class="title">
+        Isometric - Bastion 
+        </span>
+        
+        </span>
+      </span>
+    </div>
+  </li>
+
+  <li class="grid">
+
+  <img src="iso1.jpg" width="100%" height="400px">
+    
+    <div class="bottom">
+      
+      <span class="title">
+        Isometric - Headphones guns
         </span>
         
         </span>

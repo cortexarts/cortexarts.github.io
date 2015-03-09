@@ -21,7 +21,7 @@ body {
   box-sizing: border-box;
 }
 
-.survey-item {
+.grid {
   display: block;
   margin-top: 10px;
   padding: 20px;
@@ -31,47 +31,43 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .list .survey-item .stage:not(.active) {
+  .list .grid  {
     display: none;
   }
 }
 @media screen and (max-width: 700px) {
-  .list .survey-item .survey-progress-bg {
+  .list .grid {
     display: none;
   }
 }
 @media screen and (max-width: 600px) {
-  .list .survey-item .pull-right {
+  .list .grid .bottom {
     position: static;
     line-height: 20px;
     padding-bottom: 10px;
   }
 }
-
-.grid .grid-only {
-  display: auto;
-}
-.grid .list-only {
-  display: none !important;
-}
-
-.grid .survey-item {
+.grid-container .grid {
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  animation: fadeIn 1s;
   position: relative;
   display: inline-block;
   vertical-align: top;
-  height: 500px;
-  width: 500px;
-  margin: 5px;
+  height: 500px; /* USE THIS TO RESIZE THE GRIDS */
+  width: 500px; /* USE THIS TO RESIZE THE GRIDS */
+  margin: 10px;
 }
 @media screen and (max-width: 600px) {
-  .grid .survey-item {
+  .grid-container .grid {
     display: block;
     width: auto;
     height: 150px;
     margin: 10px auto;
   }
 }
-.grid .survey-progress {
+.grid-container .title {
   display: block;
   position: absolute;
   bottom: 0;
@@ -80,82 +76,29 @@ body {
   width: 100%;
   padding: 20px;
   border-top: 1px solid #eee;
-  font-size: 13px;
-}
-.grid .survey-progress-bg {
-  width: 40%;
-  display: block;
-}
-@media screen and (max-width: 200px) {
-  .grid .survey-progress-bg {
-    display: none;
-  }
-}
-.grid .survey-progress-labels {
-  position: absolute;
-  right: 20px;
-  top: 0;
-  line-height: 40px;
-}
-@media screen and (max-width: 200px) {
-  .grid .survey-progress-labels {
-    right: auto;
-    left: 10px;
-  }
-}
-.grid .survey-progress-label {
-  line-height: 21px;
-  font-size: 13px;
-  font-weight: 400;
-}
-.grid .survey-completes {
-  line-height: 21px;
-  font-size: 13px;
-  vertical-align: middle;
-}
-.grid .survey-stage {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-.grid .survey-stage .stage {
-  display: none;
-}
-.grid .survey-stage .active {
-  display: block;
-}
-.grid .survey-end-date {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 15px;
 }
 
-.survey-progress-label {
-  vertical-align: middle;
-  margin: 0 10px;
-  color: #8DC63F;
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0.0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1.0;}
 }
-
-.survey-progress-bg {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  width: 100px;
-  height: 4px;
-  border-radius: 2px;
-  overflow: hidden;
-  background: #eee;
+@-moz-keyframes fadeIn {
+    0% {opacity: 0.0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1.0;}
 }
-
-.survey-progress-fg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  margin: 0;
-  background: #8DC63F;
+@-o-keyframes fadeIn {
+    0% {opacity: 0.0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1.0;}
 }
-
+@keyframes fadeIn {
+  0% {opacity: 0.0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1.0;}
+}
 /* -- LEGEND STYLES (NOT PART OF GRID FRAMEWORK) -- */
 
 h1{
