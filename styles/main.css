@@ -465,6 +465,11 @@ html,
 	background: #147BB7;
 }
 
+.cs-share-this-product.github {
+	background: #424242;
+}
+
+
 .cs-share-this-product.youtube {
 	background: #CD2129;
 }
@@ -475,5 +480,6 @@ html,
 
 .frame {
 	float: left;
-	margin: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
 }
