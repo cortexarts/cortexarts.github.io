@@ -481,3 +481,9 @@ html,
 .frame {
 	float: left;
 }
+
+.mdl-mega-footer__middle-section,
+.mdl-mega-footer__bottom-section{
+	display: flex;
+	justify-content: center;
+}
