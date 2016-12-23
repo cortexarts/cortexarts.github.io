@@ -4,30 +4,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Recent blog posts.">
+    <meta name="description" content="A game development organization based in The Netherlands. We work on open-source projects such as games, apps, video's, and websites.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>CortexArts</title>
-
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/CA_ico.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+	<script src="scripts/material-design.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles/material-design.css">
     <link rel="stylesheet" href="styles/main.css">
     <style>
     #view-source {
@@ -45,7 +30,7 @@
     <div class="demo-blog demo-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
       <main class="mdl-layout__content">
         <div class="demo-back">
-          <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="index.html" title="go back" role="button">
+          <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="index.html" title="go back" role="button" style="color:#000;">
             <i class="material-icons" role="presentation">arrow_back</i>
           </a>
         </div>
@@ -57,7 +42,7 @@
             <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
               <div class="minilogo"></div>
               <div>
-                <strong>The Newist</strong>
+                <strong>Firstname Lastname</strong>
                 <span>2 days ago</span>
               </div>
               <div class="section-spacer"></div>
@@ -147,14 +132,14 @@
           </div>
 
           <nav class="demo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-            <a href="index.html" class="demo-nav__button">
+            <a href="index.html" class="demo-nav__button" style="color:#000;">
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
               </button>
               Newer
             </a>
             <div class="section-spacer"></div>
-            <a href="index.html" class="demo-nav__button">
+            <a href="index.html" class="demo-nav__button" style="color:#000;">
               Older
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_forward</i>
@@ -162,25 +147,114 @@
             </a>
           </nav>
         </div>
-        <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
-            <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
-              <span class="visuallyhidden">Twitter</span>
-            </button>
-            <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
-              <span class="visuallyhidden">Facebook</span>
-            </button>
-            <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
-              <span class="visuallyhidden">Google Plus</span>
-            </button>
-          </div>
-          <div class="mdl-mini-footer--right-section">
-            <button class="mdl-mini-footer--social-btn social-btn__share">
-              <i class="material-icons" role="presentation">share</i>
-              <span class="visuallyhidden">share</span>
-            </button>
-          </div>
-        </footer>
+        <footer class="mdl-mega-footer">
+				<div class="mdl-mega-footer__middle-section">
+
+					<div class="mdl-mega-footer__drop-down-section">
+						<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+						<h1 class="mdl-mega-footer__heading">Content</h1>
+						<ul class="mdl-mega-footer__link-list">
+							<li><a href="about.html">About</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+
+					<div class="mdl-mega-footer__drop-down-section">
+						<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+						<h1 class="mdl-mega-footer__heading">Links</h1>
+						<ul class="mdl-mega-footer__link-list">
+							<li>
+								<div class="cs-share-this-product twitter">
+									<a title="View our Twitter page" href="https://twitter.com/CortexArtsGames">
+										<div class="social-share-icon-block">
+											<i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product youtube">
+									<a title="Our YouTube channel" href="https://www.youtube.com/channel/UCnji41A-8daOOaHtdm5BePg">
+										<div class="social-share-icon-block">
+											<i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product facebook">
+									<a title="View us on Facebook" href="https://www.facebook.com/CortexArts-621828021286801/">
+										<div class="social-share-icon-block">
+											<i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product instagram">
+									<a title="View us on Instagram" href="https://www.instagram.com/cortexarts/">
+										<div class="social-share-icon-block">
+											<i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product google-plus">
+									<a title="View us on Google+" href="https://plus.google.com/u/5/111046340842342214977">
+										<div class="social-share-icon-block">
+											<i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product linkedin">
+									<a title="View us on LinkedIn" href="https://www.linkedin.com/in/marcfrencken">
+										<div class="social-share-icon-block">
+											<i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product github">
+									<a title="View us on GitHub" href="https://github.com/cortexarts">
+										<div class="social-share-icon-block">
+											<i class="fa fa-github fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="cs-share-this-product email">
+									<a title="Send us an e-mail" href="contact.html">
+										<div class="social-share-icon-block">
+											<i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+										</div>
+										<div class="count"></div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="mdl-mega-footer__bottom-section">
+					© CortexArts Est. 2014
+				</div>
+
+			</footer>
       </main>
       <div class="mdl-layout__obfuscator"></div>
     </div>
