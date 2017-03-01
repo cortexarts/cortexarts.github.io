@@ -489,6 +489,16 @@ html,
 	float: left;
 }
 
+.othernews .demo-card-square.mdl-card {
+  width: 550px;
+  height: 245px;
+  float: right;
+}
+.othernews .demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: #3E4EB8;
+}
+
 .mdl-mega-footer__middle-section,
 .mdl-mega-footer__bottom-section{
 	display: flex;
