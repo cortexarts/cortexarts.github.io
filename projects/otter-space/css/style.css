@@ -57,7 +57,7 @@ p {
     bottom: -20px;
     width: 60px;
     height: 1px;
-    background-color: #f39c12;
+    background-color: #ff240c;
     left: 50%;
     margin-left: -30px;
 }
@@ -194,8 +194,8 @@ p {
 .home-btn:active,
 .home-btn:visited {
     background: transparent;
-    border-color: #f39c12;
-    color: #f39c12;
+    border-color: #ff240c;
+    color: #ff240c;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -209,7 +209,7 @@ p {
     transition: all 1s;
 }
 .home-btn:hover {
-    background-color: #f39c12;
+    background-color: #ff240c;
     color: #fff;
 }
 .tuor,
@@ -233,7 +233,7 @@ tuor:visited {
 .tuor i {
     font-size: 20px;
     padding-left: 5px;
-    color: #f39c12;
+    color: #ff240c;
 }
 
 
@@ -266,7 +266,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #f39c12;
+    background: #ff240c;
     height: 1px;
 }
 .inner_about_title p {
@@ -464,7 +464,7 @@ div.carousel-inner .item img {
 .right_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #ff240c;
     left: 0;
     width: 90px;
     height: 90px;
@@ -479,7 +479,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .right_single_feature h3 span {
-    color: #f39c12;
+    color: #ff240c;
 }
 .right_single_feature p {
     color: #333;
@@ -499,7 +499,7 @@ div.carousel-inner .item img {
 .left_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #ff240c;
     right: 0;
     width: 90px;
     height: 90px;
@@ -514,7 +514,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .left_single_feature h3 span {
-    color: #f39c12;
+    color: #ff240c;
 }
 .left_single_feature p {
     color: #333;
@@ -602,12 +602,12 @@ div.carousel-inner .item img {
     -moz-border-radius: 20px;
     border-radius: 20px;
     background: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #ff240c;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     opacity: 1;
-    background: #f39c12;
+    background: #ff240c;
 }
 /*---------------------------------------
    SECTION FUN FACTS              
@@ -626,7 +626,7 @@ div.carousel-inner .item img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 .single_fun_facts i {
-    color: #f39c12;
+    color: #ff240c;
     font-size: 60px;
     ;
 }
@@ -691,7 +691,7 @@ div.carousel-inner .item img {
     transition: all 1s;
 }
 .single_store i {
-    color: #f39c12;
+    color: #ff240c;
     text-align: center;
     opacity: 1;
     font-size: 40px;
