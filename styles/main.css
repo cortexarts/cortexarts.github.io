@@ -111,9 +111,9 @@
 }
 
 .mdl-layout__header--waterfall .headerlogo {
-	width: 50px;
-	height: 70px;
-	background: url(../images/CA_logo_vertical.png) center / cover;
+	width: 144px;
+	height: 81px;
+	background: url(../images/CA_anim.gif) center / cover;
 }
 
 .is-compact .headerlogo {
