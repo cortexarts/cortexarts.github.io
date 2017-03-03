@@ -378,7 +378,7 @@ video {
 }
 #owl-demo .item img {
     display: block;
-    width: 100%;
+    width: 125%;
     height: auto;
 }
 .testimonial {
@@ -445,9 +445,6 @@ div.carousel-inner .item img {
 .feature_inner {
     padding-top: 30px;
     padding-bottom: 70px;
-}
-.feature_iphone {} .feature_iphone img {
-    width: 100%;
 }
 .right_single_feature {
     position: relative;
