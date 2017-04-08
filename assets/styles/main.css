@@ -376,19 +376,19 @@ html,
 }
 
 .slider__slide:nth-child(1) {
-	background: #2196F3;
+	background-image: url("../images/headerimage1.jpg");
 }
 
 .slider__slide:nth-child(2) {
-	background: #F44336;
+	background-image: url("../images/headerimage2.jpg");
 }
 
 .slider__slide:nth-child(3) {
-	background: #009688;
+	background-image: url("../images/headerimage3.jpg");
 }
 
 .slider__slide:nth-child(4) {
-	background: #795548;
+	background-image: url("../images/headerimage4.jpg");
 }
 
 .cs-share-this-product {
