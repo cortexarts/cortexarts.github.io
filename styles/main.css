@@ -482,9 +482,9 @@ html,
 }
 
 .othernews .demo-card-square.mdl-card {
-  display: inline-block;
+  display: inline-flex;
   width: 400px;
-  height: 100px;
+  height: auto;
 }
 .othernews .demo-card-square > .mdl-card__title {
   color: #fff;
