@@ -869,6 +869,14 @@ div.carousel-inner .item img {
     height: 117px;
     resize: none;
 }
+
+.tuor {
+	color: rgba(238, 238, 238, 0.6);
+}
+
+.home-btn {
+	background: rgba(238, 238, 238, 0.1);
+}
 /*---------------------------------------
    SECTION SUBSCRIBE              
 -----------------------------------------*/
