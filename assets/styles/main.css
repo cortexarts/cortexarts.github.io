@@ -130,12 +130,17 @@ img.article-image {
 }
 
 .portfolio-max-width {
-	max-width: 900px;
+	max-width: 53%;
+	margin: auto;
+}
+
+.portos-max-width {
+	max-width: 100%;
 	margin: auto;
 }
 
 .portfolio-copy {
-	max-width: 700px;
+	max-width: 100%;
 }
 
 .no-padding {
@@ -496,26 +501,51 @@ html,
 	justify-content: center;
 }
 
+.mdl-card__title-text {
+	margin-bottom: 5px;
+}
+
 .portos > .one > .mdl-card__title {
-	color: #fff;
+	color: black;
 	background: url('../images/about-porto-1.png') center / cover;
 	height: 250px;
 }
 
 .portos > .two > .mdl-card__title {
-	color: #fff;
+	color: black;
 	background: url('../images/about-porto-2.png') center / cover;
 	height: 250px;
 }
 
 .portos > .three > .mdl-card__title {
-	color: #fff;
-	background: url('../images/about-porto-3.png') center / cover;
+	color: black;
+	background: url('../images/about-porto-gif1.gif') center / cover;
 	height: 250px;
 }
 
 .portos > .four > .mdl-card__title {
-	color: #fff;
+	color: black;
 	background: url('../images/about-porto-4.png') center / cover;
+	height: 250px;
+}
+
+.portos > .five > .mdl-card__title {
+	color: black;
+	background: url('../images/about-porto-5.png') center / cover;
+	height: 250px;
+}
+.portos > .six > .mdl-card__title {
+	color: black;
+	background: url('../images/about-porto-6.png') center / cover;
+	height: 250px;
+}
+.portos > .seven > .mdl-card__title {
+	color: black;
+	background: url('../images/about-porto-7.png') center / cover;
+	height: 250px;
+}
+.portos > .eight > .mdl-card__title {
+	color: black;
+	background: url('../images/about-porto-8.png') center / cover;
 	height: 250px;
 }
