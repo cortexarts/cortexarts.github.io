@@ -129,6 +129,11 @@ img.article-image {
     color: #fff;
 }
 
+.content-max-width {
+	max-width: 870px;
+	margin: auto;
+}
+
 .portfolio-max-width {
 	max-width: 53%;
 	margin: auto;
