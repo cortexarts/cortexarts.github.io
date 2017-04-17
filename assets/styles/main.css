@@ -549,3 +549,8 @@ html,
 	background: url('../images/about-porto-8.png') center / cover;
 	height: 250px;
 }
+.portos > .nine > .mdl-card__title {
+	color: black;
+	background: url('../images/about-porto-9.png') center / cover;
+	height: 250px;
+}
