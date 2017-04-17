@@ -495,3 +495,23 @@ html,
 	display: flex;
 	justify-content: center;
 }
+
+.portos > .one > .mdl-card__title {
+	color: #fff;
+	background: url('../images/about-porto-1.png') center / cover;
+}
+
+.portos > .two > .mdl-card__title {
+	color: #fff;
+	background: url('../images/about-porto-2.png') center / cover;
+}
+
+.portos > .three > .mdl-card__title {
+	color: #fff;
+	background: url('../images/about-porto-3.png') center / cover;
+}
+
+.portos > .four > .mdl-card__title {
+	color: #fff;
+	background: url('../images/about-porto-4.png') center / cover;
+}
