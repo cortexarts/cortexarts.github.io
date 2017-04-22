@@ -496,6 +496,7 @@ html,
   width: 400px;
   height: auto;
 }
+
 .othernews .demo-card-square > .mdl-card__title {
   color: #fff;
 }
@@ -510,52 +511,84 @@ html,
 	margin-bottom: 5px;
 }
 
-.portos > .one > .mdl-card__title {
+.portos .mdl-card__title {
 	color: black;
-	background: url('../images/marc.gif') center / cover;
 	height: 250px;
+	cursor: pointer;
+}
+
+.portos .mdl-button {
+	padding: 0 18px;
+}
+
+.portos > .one > .mdl-card__title {
+	background: url('../images/about_marc.jpg') center / cover;
+}
+
+.portos > .one > .mdl-card__title:hover {
+	background: url('../images/about_marc.gif') center / cover;
 }
 
 .portos > .two > .mdl-card__title {
-	color: black;
-	background: url('../images/peter.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_peter.jpg') center / cover;
+}
+
+.portos > .two > .mdl-card__title:hover {
+	background: url('../images/about_peter.gif') center / cover;
 }
 
 .portos > .three > .mdl-card__title {
-	color: black;
-	background: url('../images/about-porto-gif1.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_jasper.jpg') center / cover;
+}
+
+.portos > .three > .mdl-card__title:hover {
+	background: url('../images/about_jasper.gif') center / cover;
 }
 
 .portos > .four > .mdl-card__title {
-	color: black;
-	background: url('../images/programmer_skill_coding.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_marthijn.jpg') center / cover;
+}
+
+.portos > .four > .mdl-card__title:hover {
+	background: url('../images/about_marthijn.gif') center / cover;
 }
 
 .portos > .five > .mdl-card__title {
-	color: black;
-	background: url('../images/feiko.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_feiko.jpg') center / cover;
 }
+
+.portos > .five > .mdl-card__title:hover {
+	background: url('../images/about_feiko.gif') center / cover;
+}
+
 .portos > .six > .mdl-card__title {
-	color: black;
-	background: url('../images/daan2.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_daanj.jpg') center / cover;
 }
+
+.portos > .six > .mdl-card__title:hover {
+	background: url('../images/about_daanj.gif') center / cover;
+}
+
 .portos > .seven > .mdl-card__title {
-	color: black;
-	background: url('../images/The-Art-Of-Getting-Down-Artist-In-Cyanide-Happiness-Gif.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_daanvl.jpg') center / cover;
 }
+
+.portos > .seven > .mdl-card__title:hover {
+	background: url('../images/about_daanvl.gif') center / cover;
+}
+
 .portos > .eight > .mdl-card__title {
-	color: black;
-	background: url('../images/tom.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_tom.jpg') center / cover;
 }
+
+.portos > .eight > .mdl-card__title:hover {
+	background: url('../images/about_tom.gif') center / cover;
+}
+
 .portos > .nine > .mdl-card__title {
-	color: black;
-	background: url('../images/wklfjsd.gif') center / cover;
-	height: 250px;
+	background: url('../images/about_you.jpg') center / cover;
+}
+
+.portos > .nine > .mdl-card__title:hover {
+	background: url('../images/about_you.gif') center / cover;
 }
