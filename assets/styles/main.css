@@ -134,6 +134,11 @@ img.article-image {
 	margin: auto;
 }
 
+.projects-max-width {
+	max-width: 900px;
+	margin: auto;
+}
+
 .portfolio-max-width {
 	max-width: 53%;
 	margin: auto;
