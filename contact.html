@@ -59,7 +59,9 @@
 			</nav>
 		</div>
 		<main class="mdl-layout__content">
+			
 			<div class="mdl-grid portfolio-max-width portfolio-contact">
+				
 				<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
 					<div class="mdl-card__title">
 						<h2 class="mdl-card__title-text">Contact</h2>
@@ -69,34 +71,33 @@
 					</div>
 					<div class="mdl-card__supporting-text">
 						<p>
-							Our headquarters is located in Arnhem, The Netherlands. This is where our core team members get together twice a week to work on projects. However, most of the work is done outside of those sessions by using Github.
+							Our studio is located in Arnhem, The Netherlands. This is where our core team members get together twice a week to work on projects. However, most of the work is done outside of those sessions by using Github.
 						</p>
 						<p>
 							You can directly contact us via e-mail using the following form:
 						</p>
-						<form action="#" class="">
+						<form name="contactform" method="post" action="send_mail.php">
 							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-								<input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
+								<input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" name="Name">
 								<label class="mdl-textfield__label" for="Name">Name</label>
 								<span class="mdl-textfield__error">Letters and spaces only</span>
 							</div>
 							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-								<input class="mdl-textfield__input" type="text" id="Email">
+								<input class="mdl-textfield__input" type="text" id="Email" name="Email">
 								<label class="mdl-textfield__label" for="Email">Email</label>
 							</div>
 							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-								<textarea class="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
-								<label class="mdl-textfield__label" for="note">Message</label>
+								<textarea class="mdl-textfield__input" type="text" rows="5" id="Message" name="Message"></textarea>
+								<label class="mdl-textfield__label" for="Message">Message</label>
 							</div>
 							<p>
-								<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-                                    Submit
-                                </button>
+								<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">Submit</button>
 							</p>
 						</form>
 					</div>
 				</div>
 			</div>
+			
 			<footer class="mdl-mega-footer">
 				<div class="mdl-mega-footer__middle-section">
 
@@ -105,7 +106,7 @@
 						<h1 class="mdl-mega-footer__heading">Content</h1>
 						<ul class="mdl-mega-footer__link-list">
 							<li><a href="about.html">About</a></li>
-							<li><a href="blog/index.html">Blog</a></li>
+							<li><a href="http://blog.cortexarts.com/">Blog</a></li>
 							<li><a href="news.html">News</a></li>
 							<li><a href="projects.html">Projects</a></li>
 						</ul>
